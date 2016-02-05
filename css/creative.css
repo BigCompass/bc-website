@@ -189,6 +189,11 @@ header {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    /*background: red; /* For browsers that do not support gradients */*/
+    /*background: -webkit-linear-gradient(rgb(5, 161, 189), rgb(7, 44, 200)); /* For Safari 5.1 to 6.0 */*/
+    /*background: -o-linear-gradient(rgb(5, 161, 189), rgb(7, 44, 200)); /* For Opera 11.1 to 12.0 */*/
+    /*background: -moz-linear-gradient(rgb(5, 161, 189), rgb(7, 44, 200)); /* For Firefox 3.6 to 15 */*/
+    /*background: linear-gradient(rgb(5, 161, 189), rgb(7, 44, 200)); /* Standard syntax */*/
 }
 
 header .header-content {
@@ -204,6 +209,7 @@ header .header-content .header-content-inner h1 {
     text-transform: uppercase;
     font-weight: 700;
 }
+/*text-shadow:2px 2px 0px #f05f40*/
 
 header .header-content .header-content-inner hr {
     margin: 30px auto;
