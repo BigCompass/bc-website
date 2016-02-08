@@ -151,7 +151,7 @@ aside {
 
     .navbar-default .nav > li>a:hover,
     .navbar-default .nav>li>a:focus:hover {
-        color: #fff;
+        color: #f05f40;
     }
 
     .navbar-default.affix {
@@ -209,8 +209,9 @@ header .header-content {
 header .header-content .header-content-inner h1 {
     margin-top: 0;
     margin-bottom: 0;
-    text-transform: uppercase;
-    font-weight: 700;
+    /*text-transform: uppercase;*/
+    font-size: 52px!important;
+    font-weight: 600;
 }
 /*text-shadow:2px 2px 0px #f05f40*/
 
@@ -248,6 +249,7 @@ header .header-content .header-content-inner p {
     header .header-content .header-content-inner p {
         margin-right: auto;
         margin-left: auto;
+        /*original template width is 80% and font-size=18px*/
         max-width: 90%;
         font-size: 20px;
     }
